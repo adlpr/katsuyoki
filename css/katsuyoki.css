@@ -1,0 +1,120 @@
+﻿@font-face {
+  font-family: 'Source Han Serif JP';
+  src: url('../font/SourceHanSerifJP-Regular.otf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Source Han Serif JP';
+  src: url('../font/SourceHanSerifJP-Bold.otf');
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Source Han Serif JP', sans-serif;
+  background: white url("../img/paperfibers.png");
+  background-attachment: fixed;
+  font-size: 18px;
+  color: #444;
+  /*text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px;*/
+  margin: 0;
+  padding: 0.809em;
+}
+
+#header {
+  font-variant: small-caps;
+  font-size: 14px;
+  margin-bottom: 0.4045em;
+}
+#footer {
+  font-variant: small-caps;
+  font-size: 14px;
+  text-align: center;
+}
+
+#input-row {
+  text-align: center;
+}
+
+input#word {
+  font-family: 'Source Han Serif JP', serif;
+  font-size: 22px;
+  width: 12.944em;
+  padding: 0.4045em;
+  text-align: left;
+}
+
+#pos, #pos-sub {
+  font-size: 16px;
+  padding: 0.4045em;
+  margin: 0.4045em 0 0.4045em 0.4045em;
+  text-align: center;
+}
+
+
+#result-container {
+  text-align: center;
+  margin: auto;
+  max-width: 90%;
+}
+
+#result {
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  margin: 0.618em auto;
+  padding: 0.618em;
+}
+
+table {
+  table-layout: fixed !important;
+  margin-bottom: 0 !important;
+}
+
+th, td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+table tr:first-of-type th, table tr:first-of-type td {
+  border-top: 0;
+}
+
+table.table-vertical th {
+  width: 1.618em;
+  padding-right: 1.618em;
+  border-right: 2px solid rgba(221,221,221,1);
+}
+
+table.table-vertical td {
+  text-align: left;
+  margin-left: 1.618em;
+  padding: 0.618em;
+}
+
+table.table-vertical td + td {
+  border-left: 1px solid rgba(221,221,221,1);
+}
+
+.dimmed {
+  color: rgba(0, 0, 0, 0.3);
+  text-align: center !important;
+}
+
+.inflected {
+  color: #BF323C;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted #aaa;
+}
+a:hover {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid #aaa;
+}
