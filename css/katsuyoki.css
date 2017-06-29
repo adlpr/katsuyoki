@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: 'Source Han Serif JP', sans-serif;
+  font-family: 'Source Han Serif JP', serif;
   background: white url("../img/paperfibers.png");
   background-attachment: fixed;
   font-size: 18px;
@@ -44,6 +44,7 @@ input#word {
 }
 
 #pos, #pos-sub {
+  font-family: 'Source Han Serif JP', serif;
   font-size: 16px;
   padding: 0.4045em;
   margin: 0.4045em 0 0.4045em 0.4045em;
